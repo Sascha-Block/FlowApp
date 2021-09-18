@@ -1,5 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import React from "react"
+import {AuthCluster} from "./auth-cluster"
+
+export default function App() {
+    return (
+        <div>
+            <AuthCluster />
+        </div>
+    )
+}
 
 function App() {
   return (
